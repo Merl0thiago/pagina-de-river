@@ -1,14 +1,16 @@
 *{
-  box-sizing: content-box;
+  box-sizing: border-box; 
   margin: 0%;
   padding: 0%;
 }
+
 body{
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #000000;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    display: flex;
+
 }
 
 header {
@@ -97,20 +99,33 @@ main{
 text-align: center;
 display: flex;
 padding: top 100px;;
+
 } */
 
-
-#productos-varios{
-  padding-top: 20px;
+#productos-varios,#productos-casacas,#productos-prueba {
+  padding-top: 30px;
   text-align: center;
-  justify-content: space-around;
   display: flex;
+  justify-content: space-around;
+  
 }
+
+
+  .copas-titulo{
+    color: red;
+  }
+  
+  
+
 footer {
     background-color: #d2232a;
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+    bottom: 0;
+  
+
 }
 /* info imagen */
 .cardinicio {
@@ -185,4 +200,5 @@ footer {
   #Info-Inicio {
 padding-top: 200px;
   }   
+
   
